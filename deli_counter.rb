@@ -13,6 +13,7 @@ def line(input)
       num += 1
       num1 += 1
     end
+    puts ""
   end
 
 end
