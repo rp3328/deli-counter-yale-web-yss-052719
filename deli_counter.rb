@@ -12,6 +12,7 @@ def line(input)
       print " #{num1}. #{input[num]}"
       num += 1
       num1 += 1
+      print "\n"
     end
   end
 
