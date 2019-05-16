@@ -2,7 +2,7 @@
 
 
 def line(input)
-  if input.size == 0
+  if input == []
     return "The line is currently empty."
   else
     print "The line is currently: "
