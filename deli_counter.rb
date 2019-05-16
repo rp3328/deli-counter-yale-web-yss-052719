@@ -19,6 +19,6 @@ end
 
 def take_a_number(array, string)
   array << string
-  len = array.size 
+  len = array.size
   puts "Welcome, #{string}. You are number #{len} in line."
 end
