@@ -15,5 +15,4 @@ def line(input)
     end
     puts "The line is currently:" + str
   end
-
 end
