@@ -9,7 +9,7 @@ def line(input)
     num = 0
     num1 = 1
     while num < alength
-      print "#{num1}. #{input[num]} "
+      print "#{num1}. #{input[num]}"
       num += 1
       num1 += 1
     end
