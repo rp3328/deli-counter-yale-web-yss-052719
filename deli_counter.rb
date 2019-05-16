@@ -16,3 +16,9 @@ def line(input)
     puts "The line is currently:" + str
   end
 end
+
+def take_a_number(array, string)
+  array << string
+  len = array.size 
+  puts "Welcome, #{string}. You are number #{len} in line."
+end
