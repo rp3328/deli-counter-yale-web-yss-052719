@@ -11,7 +11,7 @@ def line(input)
     while num < alength
       print " #{num1}. #{input[num]}"
       num += 1
-      num1 += 1  
+      num1 += 1
     end
       print "\n"
   end
