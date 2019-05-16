@@ -22,3 +22,9 @@ def take_a_number(array, string)
   len = array.size
   puts "Welcome, #{string}. You are number #{len} in line."
 end
+
+def now_serving(array)
+  puts "Currently serving #{array[0]}."
+  array.shift
+end
+
