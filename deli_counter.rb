@@ -1,7 +1,6 @@
 # Write your code here.
-
-
 def line(input)
+  
   if input == []
     return "The line is currently empty."
   else
@@ -13,4 +12,5 @@ def line(input)
       num += 1
     end
   end
+  
 end
