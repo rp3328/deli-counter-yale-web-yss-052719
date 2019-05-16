@@ -7,9 +7,11 @@ def line(input)
     print "The line is currently: "
     alength = input.size
     num = 0
+    num1 = 1
     while num < alength
-      print "#{num}. #{input[num]} "
+      print "#{num1}. #{input[num]} "
       num += 1
+      num1 += 1
     end
   end
 
