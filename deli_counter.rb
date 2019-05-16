@@ -14,6 +14,7 @@ def line(input)
       num += 1
       num1 += 1
     end
+    puts "The line is currently:" + str
   end
 
 end
