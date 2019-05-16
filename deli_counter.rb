@@ -8,8 +8,9 @@ def line(input)
     alength = input.size
     num = 0
     num1 = 1
+    str = ""
     while num < alength
-      print " #{num1}. #{input[num]}"
+      str = str + " #{num1}. #{input[num]}"
       num += 1
       num1 += 1
     end
