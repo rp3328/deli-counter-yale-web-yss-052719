@@ -14,7 +14,6 @@ def line(input)
       num += 1
       num1 += 1
     end
-      print "\n"
   end
 
 end
